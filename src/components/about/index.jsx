@@ -1,5 +1,5 @@
 import {RevalAboutImg, RevalAboutContent} from '../../ui/introImg'
-import person from '../icons/premium_photo-1664536392896-cd1743f9c02c.jpeg'
+import person from '../icons/me.jpg'
 import "./_style.scss"
 const index = () => {
  

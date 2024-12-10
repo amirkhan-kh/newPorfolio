@@ -48,6 +48,13 @@ header {
             li {
                 a {
                     color: #89b1bb;
+                    transition: 0.3s ease;
+                }
+                &:hover {
+                    a {
+                        color: #fff;
+                        font-weight: 600;
+                    }
                 }
             }
         }
