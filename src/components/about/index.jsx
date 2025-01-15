@@ -1,5 +1,6 @@
 import {RevalAboutImg, RevalAboutContent} from '../../ui/introImg'
-import person from '../icons/me.jpg'
+import person from '../../assets/bg.jpg'
+import logo from '../icons/icon-removebg-preview.png'
 import "./_style.scss"
 const index = () => {
  
@@ -12,7 +13,12 @@ const index = () => {
       <div id="about">
         
           <RevalAboutImg >
-            <img  className="img" src={person} alt="" />
+           <div className="leftAbout">
+           <img  className="img" src={person} alt="" />
+           <div className="logo">
+            <img src={logo} alt="" />
+            </div>
+           </div>
           </RevalAboutImg>
 
           < RevalAboutContent>
