@@ -167,7 +167,7 @@ import pixel from '../../assets/pixels.png'
 import videplayer from '../../assets/videplayer.png'
 import green from '../../assets/green.png'
 import watcher from '../../assets/watcher.png'
-import ferued from '../../assets/ferued.png'
+import weather from '../../assets/weaTHER.png'
 export const projectCard = [
     {
         id: 1,
@@ -178,7 +178,7 @@ export const projectCard = [
         techStack: ["HTML", "SCSS", "Swiper", "AOS"],
     },
     {
-        id: 4,
+        id: 2,
         name: "Pixels",
         description: `Pixels is a platform offering high-quality, worldwide.`,
         link: "https://willowy-cascaron-7c187a.netlify.app/",
@@ -188,7 +188,17 @@ export const projectCard = [
         netlify: "https://app.netlify.com/sites/willowy-cascaron-7c187a/overview",
     },
     {
-        id: 2,
+        id: 3,
+        name: "Weather App",
+        description: "Stay updated with real-time weather conditions for any city.",
+        link: "https://weather-app-delta-tan.vercel.app/",
+        techStack: ["Tailwindcss", "HTML","Java script",],
+        image: weather, 
+        github: "https://github.com/amirkhan-kh/WeatherApp",
+
+    },
+    {
+        id: 4,
         name: "MEGA BOX",
         description: "Displays total revenue, profit, and sales trends.",
         link: "https://66ca909f0c815f87b0879493--peppy-flan-26c1ac.netlify.app/",
@@ -198,7 +208,7 @@ export const projectCard = [
         netlify: "https://app.netlify.com/sites/peppy-flan-26c1ac/overview",
     },
     {
-        id: 3,
+        id: 5,
         name: "Tasty Food Collections",
         description: "Tasty Food Collections  from savory mains to sweet desserts, perfect for any occasion.  your next meal.",
         link: "https://stirring-meerkat-2a8728.netlify.app/",
@@ -209,7 +219,7 @@ export const projectCard = [
     },
     
     {
-        id: 5,
+        id: 6,
         name: "Video Player",
         description: `Book Library is your ultimate destination for dison of books across next great read.`,
         link: "https://quiet-cendol-a464ca.netlify.app/",
@@ -239,16 +249,7 @@ export const projectCard = [
         github: "https://github.com/amirkhan-kh/movies_React",
         netlify: "https://app.netlify.com/sites/stirring-manatee-c6064b/overview",
     },
-    {
-        id: 9,
-        name: "FEATURD MOVIES",
-        description: `Movie Watcher i collection of films across genres. your next great watch.`,
-        link: "https://monumental-mooncake-2c9234.netlify.app/",
-        techStack: ["Java script", "Tailwindcss", "Material UI"],
-        image: ferued,
-        github: "https://github.com/amirkhan-kh/FEATURD_MOVIES",
-        netlify: "https://app.netlify.com/sites/monumental-mooncake-2c9234/overview",
-    },
+   
     
     
 
