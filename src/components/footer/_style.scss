@@ -1,0 +1,25 @@
+footer{
+    border-top: 1px solid #ffffff;
+    width: 100%;
+    nav{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            li{
+                a{
+                    text-decoration: none;
+                    img{
+                        width: 32px;
+                        background-color: #ffffff;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

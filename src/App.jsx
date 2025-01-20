@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ProjectItem } from './ui/single';
-import { Header, Intro, About, Skills, Contact, Project } from './components';
+import { Header, Intro, About, Skills, Contact, Project, Footer } from './components';
 
 const MainLayout = () => (
   <>
@@ -10,6 +10,7 @@ const MainLayout = () => (
     <Skills />
     <Project />
     <Contact />
+    <Footer />
   </>
 );
 
