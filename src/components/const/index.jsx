@@ -165,7 +165,6 @@ import megabox from '../../assets/megabox.png'
 import gamburger from '../../assets/gamburger.png'
 import pixel from '../../assets/pixels.png'
 import videplayer from '../../assets/videplayer.png'
-import green from '../../assets/green.png'
 import watcher from '../../assets/watcher.png'
 import weather from '../../assets/weaTHER.png'
 export const projectCard = [
@@ -179,75 +178,58 @@ export const projectCard = [
     },
     {
         id: 2,
-        name: "Pixels",
-        description: `Pixels is a platform offering high-quality, worldwide.`,
-        link: "https://willowy-cascaron-7c187a.netlify.app/",
-        techStack: ["HTML","Java script", "Tailwindcss", "Material UI"],
-        image: pixel,
-        github: "",
-        netlify: "https://app.netlify.com/sites/willowy-cascaron-7c187a/overview",
-    },
-    {
-        id: 3,
         name: "Weather App",
         description: "Stay updated with real-time weather conditions for any city.",
-        link: "https://weather-app-delta-tan.vercel.app/",
-        techStack: ["Tailwindcss", "HTML","Java script",],
+        link: "https://weather-app-new-three.vercel.app/",
+        techStack: ["Tailwindcss", "HTML","Java script"],
         image: weather, 
-        github: "https://github.com/amirkhan-kh/WeatherApp",
+        github: "https://github.com/amirkhan-kh/weatherAppNew",
 
     },
     {
-        id: 4,
+        id: 3,
         name: "MEGA BOX",
         description: "Displays total revenue, profit, and sales trends.",
         link: "https://66ca909f0c815f87b0879493--peppy-flan-26c1ac.netlify.app/",
         techStack: ["React","React Router","Bootstrap Icons","Recharts","Chart js",],
         image: megabox,
         github: "https://github.com/amirkhan-kh/dashboardMegaBox",
-        netlify: "https://app.netlify.com/sites/peppy-flan-26c1ac/overview",
+    },
+    {
+        id: 4,
+        name: "Pixels",
+        description: `Pixels is a platform offering high-quality, worldwide.`,
+        link: "https://willowy-cascaron-7c187a.netlify.app/",
+        techStack: ["HTML","Java script", "Tailwindcss"],
+        image: pixel,
+        github: "https://github.com/amirkhan-kh/photos_Site/tree/master",
     },
     {
         id: 5,
+        name: "Video Player",
+        description: `Book Library is your ultimate destination for dison of books across next great read.`,
+        link: "https://video-contents-beta.vercel.app/",
+        techStack: ["HTML", "SCSS", "Java Script"],
+        image: videplayer,
+        github: "https://github.com/amirkhan-kh/VideoContents",
+    },
+    {
+        id: 6,
         name: "Tasty Food Collections",
         description: "Tasty Food Collections  from savory mains to sweet desserts, perfect for any occasion.  your next meal.",
         link: "https://stirring-meerkat-2a8728.netlify.app/",
         techStack: ["React","Next js", "Tailwindcss"],
         image: gamburger,
         github: "https://github.com/amirkhan-kh/initialNextJs",
-        netlify: "https://app.netlify.com/sites/stirring-meerkat-2a8728/overview",
-    },
-    
-    {
-        id: 6,
-        name: "Video Player",
-        description: `Book Library is your ultimate destination for dison of books across next great read.`,
-        link: "https://quiet-cendol-a464ca.netlify.app/",
-        techStack: ["HTML", "SCSS", "Java Script"],
-        image: videplayer,
-        github: "https://github.com/amirkhan-kh/VideoContents",
-        netlify: "https://app.netlify.com/sites/quiet-cendol-a464ca/overview",
-    },
-   
-    {
-        id: 7,
-        name: "Crafting Green Masterpieces",
-        description: `Landscape Design Beyond Expectations`,
-        link: "https://spiffy-bublanina-6eae26.netlify.app/",
-        techStack: [ "React", "Styled Components", "Tailwindcss"],
-        image: green,
-        github: "https://github.com/amirkhan-kh/greensever",
-        netlify: "https://app.netlify.com/sites/spiffy-bublanina-6eae26/overview",
     },
     {
         id: 8,
         name: "Movie Watcher",
         description: `Movie Watcher is your lection of films across  great watch.`,
-        link: "https://stirring-manatee-c6064b.netlify.app/",
+        link: "https://movies-react-pink.vercel.app/",
         techStack: ["React", "React Router", "Tailwindcss"],
         image: watcher,
         github: "https://github.com/amirkhan-kh/movies_React",
-        netlify: "https://app.netlify.com/sites/stirring-manatee-c6064b/overview",
     },
    
     

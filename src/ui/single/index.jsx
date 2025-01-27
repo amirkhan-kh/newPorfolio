@@ -27,7 +27,6 @@ export const ProjectItem = () => {
               <div className="links">
               <a href={project.link}> <i className="bi bi-link-45deg"></i>live</a>
               <a href={project.github}>GitHub</a>
-              <a href={project.netlify}>Netlify</a>
             </div>
             </RevalTopBottom>
             </div>
