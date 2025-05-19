@@ -196,7 +196,7 @@ export const projectCard = [
         github: "https://github.com/amirkhan-kh/dashboardMegaBox",
     },
     {
-        id: 8,
+        id: 4,
         name: "NovEnter",
         description: `A project developed for the 'NovEnter' company with highly optimized SEO.`,
         link: "https://noventer-one.vercel.app/ru",
@@ -205,7 +205,7 @@ export const projectCard = [
         github: "https://github.com/amirkhan-kh/noventer",
     },
     {
-        id: 4,
+        id: 5,
         name: "Pixels",
         description: `Pixels is a platform offering high-quality, worldwide.`,
         link: "https://willowy-cascaron-7c187a.netlify.app/",
@@ -214,7 +214,7 @@ export const projectCard = [
         github: "https://github.com/amirkhan-kh/photos_Site/tree/master",
     },
     {
-        id: 5,
+        id: 6,
         name: "Video Player",
         description: `Book Library is your ultimate destination for dison of books across next great read.`,
         link: "https://video-contents-beta.vercel.app/",
@@ -223,7 +223,7 @@ export const projectCard = [
         github: "https://github.com/amirkhan-kh/VideoContents",
     },
     {
-        id: 6,
+        id: 7,
         name: "Tasty Food Collections",
         description: "Tasty Food Collections  from savory mains to sweet desserts, perfect for any occasion.  your next meal.",
         link: "https://stirring-meerkat-2a8728.netlify.app/",
