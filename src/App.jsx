@@ -22,6 +22,7 @@ const App = () => {
         <Route path="/project/:id" element={<ProjectItem />} />
       </Routes>
     </Router>
+    
   );
 };
 

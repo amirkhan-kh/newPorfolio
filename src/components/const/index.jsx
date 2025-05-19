@@ -15,6 +15,8 @@ import nextui from '../../assets/nextui.png'
 import astro from '../../assets/astro.webp'
 import typescript from '../../assets/typescript-def.png';
 import angularMaterial from '../../assets/angular-material-extensions-logo.svg'
+import noventer from '../../../public/noventer.png'
+import travello from '../../../public/travello1.png'
 export const skillsCard = [
     {
         id: "1",
@@ -161,11 +163,9 @@ export const skillsCard = [
 
 
 import abplast from '../../assets/abplastnew.png'
-import megabox from '../../assets/megabox.png'
 import gamburger from '../../assets/gamburger.png'
 import pixel from '../../assets/pixels.png'
 import videplayer from '../../assets/videplayer.png'
-import watcher from '../../assets/watcher.png'
 import weather from '../../assets/weaTHER.png'
 export const projectCard = [
     {
@@ -174,7 +174,7 @@ export const projectCard = [
         description: "AB Plast заниматься производством и поставкой всех видов полимерных труб для подачи воды, газа и комплектующих материалов к ним.",
         link: "https://abplast.uz/",
         image: abplast,
-        techStack: ["HTML", "SCSS", "Swiper", "AOS"],
+        techStack: ["HTML", "SCSS", "Swiper", "Java Script"],
     },
     {
         id: 2,
@@ -192,8 +192,17 @@ export const projectCard = [
         description: "Displays total revenue, profit, and sales trends.",
         link: "https://66ca909f0c815f87b0879493--peppy-flan-26c1ac.netlify.app/",
         techStack: ["React","React Router","Bootstrap Icons","Recharts","Chart js",],
-        image: megabox,
+        image: travello,
         github: "https://github.com/amirkhan-kh/dashboardMegaBox",
+    },
+    {
+        id: 8,
+        name: "NovEnter",
+        description: `A project developed for the 'NovEnter' company with highly optimized SEO.`,
+        link: "https://noventer-one.vercel.app/ru",
+        techStack: ["NextJs", "SCSS", "Tailwindcss", "i18n", "Next initl"],
+        image: noventer,
+        github: "https://github.com/amirkhan-kh/noventer",
     },
     {
         id: 4,
@@ -222,15 +231,7 @@ export const projectCard = [
         image: gamburger,
         github: "https://github.com/amirkhan-kh/initialNextJs",
     },
-    {
-        id: 8,
-        name: "Movie Watcher",
-        description: `Movie Watcher is your lection of films across  great watch.`,
-        link: "https://movies-react-pink.vercel.app/",
-        techStack: ["React", "React Router", "Tailwindcss"],
-        image: watcher,
-        github: "https://github.com/amirkhan-kh/movies_React",
-    },
+    
    
     
     
