@@ -2,7 +2,7 @@ import { useState } from "react";
 import {RevalAboutContent} from '../../ui/introImg'
 import {skillsCard} from '../const'
 import "./_style.scss"
-const index = () => {
+const Index = () => {
   const [hoveredSkillId, setHoveredSkillId] = useState(null);
   return (
     <div>
@@ -41,4 +41,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Index
